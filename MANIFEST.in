@@ -1,1 +1,1 @@
-recursive-include cebdict/data/*
+recursive-include cebdict/data *
