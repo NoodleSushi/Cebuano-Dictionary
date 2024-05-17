@@ -46,6 +46,6 @@ Checks if the term exists in the dictionary
 '''
 def is_entry(term=''):
 	term = term.lower()
-	term = term.replace(term, 'o', 'u')
-	term = term.replace(term, 'e', 'i')
+	term = term.replace('o', 'u')
+	term = term.replace('e', 'i')
 	return term in dictionary
